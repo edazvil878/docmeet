@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto_Condensed/RobotoCondensed.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+    <title>DocMeet - Citas salud Online</title>
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="home__nav">
+
+        <!-- IMAGEN LOGO -->
+        <div class="nav__container-img">
+            <a href="index-login.html" class="nav__link">
+                <img class="nav__img" src="assets/img/Logo.svg" alt="Logo  de la empresa">
+            </a>
+        </div>
+
+        <!-- MENÚ -->
+        <ul class="nav__lista">
+            <li class="nav__option"><a class="option__link" href="index-login.html"> INICIO </a></li>
+            <li class="nav__option"><a class="option__link" href="especialistas-login.html"> ESPECIALISTAS </a></li>
+            <li class="nav__option"><a class="option__link" href="pedir-cita-login.html"> PEDIR CITA </a></li>
+            <li class="nav__option"><a class="option__link" href="faq-login.html"> DUDAS </a></li>
+        </ul>
+
+        <div class="nav__right">
+
+            <!-- CAMBIAR DE IDIOMA -->
+            <div class="nav__radio">
+                <label class="radio__label">
+                    <input class="radio__input" type="radio" name="radio" checked="">
+                    <span class="radio__text"> ESPAÑOL</span>
+                </label>
+                <label class="radio__label">
+                    <input class="radio__input" type="radio" name="radio">
+                    <span class="radio__text">INGLES</span>
+                </label>
+
+                <label class="radio__label">
+                    <input class="radio__input" type="radio" name="radio">
+                    <span class="radio__text">FRANCES</span>
+                </label>
+            </div>
+
+            <!-- CARRITO ICON -->
+            <a class="nav__link" href="carrito.html">
+                <i class="nav__icon fa-solid fa-cart-shopping"></i>
+            </a>
+
+            <!-- USER ICON -->
+            <a class="nav__link" href="area-personal.html">
+                <i class="nav__icon fa-solid fa-user" id="active"></i>
+            </a>
+
+        </div>
+
+    </nav>
+
+    <!-- MAIN DE LA WEB -->
+    <main class="home__main">
+        <section class="main__personal">
+
+            <header class="personal__header">
+                <h1 class="personal__title">AREA PERSONAL</h1>
+            </header>
+
+            <div class="personal__container">
+
+                <!-- SECCIÓN IZQ -->
+                <div class="personal__container-left">
+
+                    <div class="container-left__container">
+                        <a class="container-left__btn" href="#">
+                            <span class="container-left__title">DATOS PERSONALES</span>
+                        </a>
+                    </div>
+
+                    <div class="container-left__container">
+                        <a class="container-left__btn" href="mis-citas.html">
+                            <span class="container-left__title">MIS CITAS</span>
+                        </a>
+                    </div>
+
+                    <div class="container-left__container">
+                        <a class="container-left__btn" href="#">
+                            <span class="container-left__title">AJUSTES</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="personal__container-right">
+
+                    <div class="container-right__container-img">
+                        <img class="container-right__img" src="assets/img/Foto cara.png" alt="">
+                    </div>
+
+                    <a class="container-right__btn" href="#">
+                        <span class="container-right__title">CAMBIAR FOTO</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+
+    <!-- PIÉ DE PÁGINA -->
+    <footer class="home__footer">
+
+        <!-- TERMINOS LEGALES -->
+        <div class="footer__container-legal">
+            <ul class="container-legal__list">
+                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 1</a></li>
+                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 2</a></li>
+                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 3</a></li>
+                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 4</a></li>
+            </ul>
+        </div>
+
+        <!-- INFORMACIÓN -->
+        <div class="footer__container-description">
+            <p class="footer__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto libero, aliquid porro quae accusantium
+                repudiandae placeat facilis a harum aperiam necessitatibus, sint, mollitia magni? Id nisi atque odio
+                necessitatibus fuga?
+                Quae quis dolorem sit modi voluptas molestiae iste, nulla quam blanditiis aliquid rem et, tenetur iure
+                vero maxime reprehenderit repudiandae itaque odit impedit. Voluptatibus ratione laudantium quo, dolores
+                ut itaque!
+            </p>
+        </div>
+
+        <div class="footer__container-rrss">
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-twitter"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Twitter</a></p>
+            </div>
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-youtube"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Youtube</a></p>
+            </div>
+
+            <div class="container-rrss__rrss">
+                <i class="rrss__icon fa-brands fa-instagram"></i>
+                <p class="rrss__text"><a class="rrss__link" href="#">Instagram</a></p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/Roboto_Condensed/RobotoCondensed.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+    <title>DocMeet - Citas salud Online</title>
+</head>
+
+<body style="overflow-y:hidden">
+
+    <!-- MAIN DE LA WEB -->
+    <main class="home__main">
+
+         <!-- CAMBIAR DE IDIOMA -->
+         <div class="nav__radio login__radio">
+            <label class="radio__label">
+                <input class="radio__input" type="radio" name="radio" checked="">
+                <span class="radio__text"> ESPAÑOL</span>
+            </label>
+            <label class="radio__label">
+                <input class="radio__input" type="radio" name="radio">
+                <span class="radio__text">INGLES</span>
+            </label>
+
+            <label class="radio__label">
+                <input class="radio__input" type="radio" name="radio">
+                <span class="radio__text">FRANCES</span>
+            </label>
+        </div>
+
+        <div class="main__container-login">
+
+            <div class="login__container-sup">
+                <div class="login__container-img">
+                    <a href="index.html" class="nav__link">
+                        <img class="login__img" src="assets/img/logoLogin.png" alt="Logo  de la empresa">
+                    </a>
+                </div>
+
+                <header class="login__header">
+                    <h1 class="login__title">CREAR CUENTA</h1>
+                </header>
+            </div>
+
+            <form class="login__form" action="#" method="post">
+                <label class="login__label" for="nombre">Nombre:</label>
+                <input class="login__input" type="text" id="nombre" name="nombre" placeholder="Nombre..." required>
+
+                <label class="login__label" for="email">Correo Electrónico:</label>
+                <input class="login__input" type="email" id="email" name="email" placeholder="Correo electrónico..."
+                    required>
+
+                <label class="login__label" for="telefono">Teléfono:</label>
+                <input class="login__input" type="tel" id="telefono" name="telefono" placeholder="Teléfono..." required>
+
+                <label class="login__label" for="dni">DNI:</label>
+                <input class="login__input" type="text" id="dni" name="dni" placeholder="DNI..." required>
+
+                <label class="login__label" for="contrasena">Contraseña:</label>
+                <input class="login__input" type="password" id="contrasena" name="contrasena"
+                    placeholder="Contraseña..." required>
+
+                <a class="login__button" href="login.html">
+                    <span class="button-login__title">CREAR CUENTA</span>
+                </a>
+            </form>
+
+
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
