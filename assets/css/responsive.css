@@ -18,7 +18,7 @@
     }
 
     .nav__lista {
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .nav__btn-login {
@@ -26,44 +26,54 @@
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 1160px) {
     body {
         background-color: yellow;
     }
 
     .nav__lista {
-        gap: 1rem;
+        gap: 3.5rem;
     }
 
     .home__nav {
         padding: 0 5rem;
     }
 
-    .nav__container-img {}
+    .option__link {
+        font-size: 2rem;
+    }
 
     .nav__btn-login {
         padding: 0.8rem 3rem;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px){
     body {
-        background-color: pink;
+        background-color: burlywood;
     }
 
-    .nav__lista {
-        gap: 3rem;
-    }
-
-    .option__link {
-        font-size: 1.8rem;
+    .nav__container-img{
+        display: none;
     }
 
     .btn-login__title {
-        font-size: 1.8rem;
+        font-size:2rem;
     }
 
     .nav__btn-login {
-        padding: 0.8rem 3rem;
+        padding: 0.8rem 1.8rem;
     }
+
+    .nav__lista {
+        gap: 5rem;
+    }
+
+    .option__link {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px){
+    /* Menu hamburguesa */
 }
