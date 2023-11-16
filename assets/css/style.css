@@ -472,11 +472,10 @@ body {
     padding: 3rem 0rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-
     width: 100%;
     background-color: var(--color--background-card);
 
@@ -502,8 +501,6 @@ body {
     color: var(--color-secundario);
     transform: scale(1.1);
 }
-
-/* .option__link{} */
 
 .footer__container-description {
     flex-basis: calc(33%);
