@@ -1,8 +1,20 @@
+@media (max-width: 1565px) {
+    body {
+        background-color: brown;
+    }
+
+    /* Cartas de especialistas */
+    .cards__card {
+        flex-basis: calc(33% - 4rem);
+    }
+}
+
 @media (max-width: 1420px) {
     body {
         background-color: blue;
     }
 
+    /* Barra de navegación */
     .nav__lista {
         gap: 5rem;
     }
@@ -17,6 +29,7 @@
         background-color: red;
     }
 
+    /* Barra de navegación */
     .nav__lista {
         gap: 4rem;
     }
@@ -24,13 +37,31 @@
     .nav__btn-login {
         padding: 0.8rem 3rem;
     }
+
+    /* Quitar las imagenes y poner el texto al 100% */
+    .right__container-img {
+        display: none;
+    }
+
+    .left__container-img {
+        display: none;
+    }
+
+    .section-1__left {
+        flex-basis: 100%;
+    }
+
+    .section-3__right {
+        flex-basis: 100%;
+    }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1165px) {
     body {
         background-color: yellow;
     }
 
+    /* Barra de navegación */
     .nav__lista {
         gap: 3.5rem;
     }
@@ -46,19 +77,30 @@
     .nav__btn-login {
         padding: 0.8rem 3rem;
     }
+
+    /* Cartas de especialistas */
+    .cards__card {
+        flex-basis: calc(50% - 4rem);
+    }
+
+    /* Cartas de opiniones */
+    .opinions__opinion{
+        flex-basis: 100%;
+    }
 }
 
-@media (max-width: 950px){
+@media (max-width: 950px) {
     body {
         background-color: burlywood;
     }
 
-    .nav__container-img{
+    /* Barra de navegación */
+    .nav__container-img {
         display: none;
     }
 
     .btn-login__title {
-        font-size:2rem;
+        font-size: 2rem;
     }
 
     .nav__btn-login {
@@ -74,6 +116,6 @@
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 850px) {
     /* Menu hamburguesa */
 }

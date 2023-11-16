@@ -69,11 +69,11 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--color-secundario);
-    transition: all 300ms ease-in-out;
+    transition: scale 300ms ease-in-out;
 }
 
 .nav__option:hover {
-    transform: scale(1.4);
+    scale: 1.4;
 }
 
 /* .nav__link{} */
@@ -114,11 +114,11 @@ body {
 .nav__icon {
     font-size: 4rem;
     color: var(--color-secundario);
-    transition: all 300ms ease-in-out;
+    transition: scale 300ms ease-in-out;
 }
 
 .nav__icon:hover {
-    transform: scale(1.3);
+    scale: 1.3;
 }
 
 
@@ -135,6 +135,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     padding-top: 10rem;
     padding-bottom: 5rem;
@@ -177,7 +178,9 @@ body {
     flex-basis: calc(50% - 5rem);
 }
 
-/* .right__container-img {}  */
+.right__container-img {
+    width: 100%;
+}
 
 .right__img {
     width: 100%;
@@ -236,7 +239,7 @@ body {
         inset -1rem -1rem 1rem rgba(255, 255, 255, .1);
     
     background-color: var(--color--background-card);
-    transition: all 300ms ease-in-out;
+    transition: transform 300ms ease-in-out;
 }
 
 .cards__card:hover {
@@ -323,6 +326,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 
     padding-top: 2rem;
     padding-bottom: 7rem;
@@ -362,7 +366,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: unwrap;
+    flex-wrap: wrap;
     gap: 5rem;
 
     overflow: hidden;
