@@ -9,6 +9,18 @@
     }
 }
 
+@media (max-width: 1500px) {
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 50px;
+    }
+
+    .nav__right--login {
+        gap: 30px;
+    }
+
+}
+
 @media (max-width: 1430px) {
     body {
         background-color: blue;
@@ -36,6 +48,18 @@
     
     .footer__container-rrss {
         flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 30px;
+    }
+
+    .option__link--login {
+        font-size: 2rem;
     }
 }
 
@@ -101,6 +125,44 @@
     /* Cartas de opiniones */
     .opinions__opinion{
         flex-basis: 100%;
+    }
+
+    /* Barra de navegación */
+    .nav__lista--login {
+        gap: 35px;
+    }
+
+    .home__nav--login {
+        padding: 0 50px;
+    }
+
+    .option__link--login {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    /* Barra de navegación */
+    .nav__container-img--login {
+        display: none;
+    }
+
+    .nav__lista--login {
+        gap: 40px;
+    }
+
+    .option__link--login {
+        font-size: 1.7rem;
+    }
+
+    .nav__radio--login {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2.5px;
+        width: 200px;
+        font-size: 1.4rem;
     }
 }
 
