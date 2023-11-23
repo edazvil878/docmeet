@@ -5,7 +5,7 @@
 
     /* Cartas de especialistas */
     .cards__card {
-        flex-basis: calc(33% - 4rem);
+        flex-basis: calc(33% - 40px);
     }
 }
 
@@ -28,11 +28,11 @@
 
     /* Barra de navegación */
     .nav__lista {
-        gap: 5rem;
+        gap: 50px;
     }
 
     .nav__right {
-        gap: 3rem;
+        gap: 30px;
     }
 
     /* Footer */
@@ -48,6 +48,7 @@
     
     .footer__container-rrss {
         flex-basis: 100%;
+        margin-top: 20px;
     }
 }
 
@@ -70,11 +71,11 @@
 
     /* Barra de navegación */
     .nav__lista {
-        gap: 4rem;
+        gap: 40px;
     }
 
     .nav__btn-login {
-        padding: 0.8rem 3rem;
+        padding: 8px 30px;
     }
 
     /* Quitar las imagenes y poner el texto al 100% */
@@ -102,11 +103,11 @@
 
     /* Barra de navegación */
     .nav__lista {
-        gap: 3.5rem;
+        gap: 35px;
     }
 
     .home__nav {
-        padding: 0 5rem;
+        padding: 0 50px;
     }
 
     .option__link {
@@ -114,12 +115,12 @@
     }
 
     .nav__btn-login {
-        padding: 0.8rem 3rem;
+        padding: 8px 30px;
     }
 
     /* Cartas de especialistas */
     .cards__card {
-        flex-basis: calc(50% - 4rem);
+        flex-basis: calc(50% - 40px);
     }
 
     /* Cartas de opiniones */
@@ -138,6 +139,29 @@
 
     .option__link--login {
         font-size: 2rem;
+    }
+
+    /* Mis citas */
+    .mis-citas__mi-cita {
+        flex-basis: 100%;
+    }
+
+    .container-right__img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    /* Carrito */
+    .shop__container {
+        display: block;
+    }
+
+    .shop__container-left {
+        margin-bottom: 50px;
+    }
+
+    .shop__input {
+        width: 100%;
     }
 }
 
@@ -181,11 +205,11 @@
     }
 
     .nav__btn-login {
-        padding: 0.8rem 1.8rem;
+        padding: 8px 18px;
     }
 
     .nav__lista {
-        gap: 5rem;
+        gap: 50px;
     }
 
     .option__link {
@@ -212,6 +236,6 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 870px) {
     /* Menu hamburguesa */
 }
