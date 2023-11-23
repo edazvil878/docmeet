@@ -137,7 +137,9 @@ body {
 }
 
 .home__main--pedir-cita{
-    height: 67vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__section-1 {
@@ -797,11 +799,8 @@ body {
 /* PEDIR CITA */
 
 .main__container-cita {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
+    margin-top: 70px;
     width: 500px;
     padding: 10px 50px;
 
