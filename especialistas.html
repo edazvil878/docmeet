@@ -16,12 +16,17 @@
 <body>
 
     <!-- BARRA DE NAVEGACIÓN -->
-    <nav class="home__nav">
+    <nav class="home__nav" id="home__nav">
+        
+        <div class="nav__right">
+            <!-- BOTÓN LOGIN -->
+            <a class="nav__btn-login" href="login.html">
+                <span class="btn-login__title">INICIAR SESIÓN</span>
+            </a>
 
-        <!-- IMAGEN LOGO -->
-        <div class="nav__container-img">
-            <a href="index.html" class="nav__link">
-                <img class="nav__img" src="assets/img/Logo.svg" alt="Logo  de la empresa">
+            <!-- USER ICON -->
+            <a class="nav__link" href="login.html">
+                <i class="nav__icon fa-solid fa-user"></i>
             </a>
         </div>
 
@@ -33,19 +38,18 @@
             <li class="nav__option"><a class="option__link" href="faq.html"> DUDAS </a></li>
         </ul>
 
-        <div class="nav__right">
-            <!-- BOTÓN LOGIN -->
-            <a class="nav__btn-login" href="login.html">
-                <span class="btn-login__title">INICIAR SESIÓN</span>
-            </a>
-
-            <!-- USER ICON -->
-            <a class="nav__link" href="area-personal.html">
-                <i class="nav__icon fa-solid fa-user"></i>
+        <!-- IMAGEN LOGO -->
+        <div class="nav__container-img">
+            <a href="index.html" class="nav__link">
+                <img class="nav__img" src="assets/img/Logo.svg" alt="Logo  de la empresa">
             </a>
         </div>
 
     </nav>
+
+    <div id="nav__menu" class="nav__menu">
+        <i class="nav__menu-icon fa-solid fa-bars"></i>
+    </div>
 
     <!-- MAIN DE LA WEB -->
     <main class="home__main">

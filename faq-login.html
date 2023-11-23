@@ -16,22 +16,7 @@
 <body>
 
      <!-- BARRA DE NAVEGACIÓN -->
-     <nav class="home__nav--login">
-
-        <!-- IMAGEN LOGO -->
-        <div class="nav__container-img--login">
-            <a href="index-login.html" class="nav__link--login">
-                <img class="nav__img--login" src="assets/img/Logo.svg" alt="Logo  de la empresa">
-            </a>
-        </div>
-
-        <!-- MENÚ -->
-        <ul class="nav__lista--login">
-            <li class="nav__option--login"><a class="option__link--login" href="index-login.html"> INICIO </a></li>
-            <li class="nav__option--login"><a class="option__link--login" href="especialistas-login.html"> ESPECIALISTAS </a></li>
-            <li class="nav__option--login"><a class="option__link--login" href="pedir-cita-login.html"> PEDIR CITA </a></li>
-            <li class="nav__option--login"><a class="option__link--login" href="faq-login.html" id="active"> DUDAS </a></li>
-        </ul>
+     <nav class="home__nav--login" id="home__nav">
 
         <div class="nav__right--login">
 
@@ -65,7 +50,26 @@
 
         </div>
 
+        <!-- MENÚ -->
+        <ul class="nav__lista--login">
+            <li class="nav__option--login"><a class="option__link--login" href="index-login.html"> INICIO </a></li>
+            <li class="nav__option--login"><a class="option__link--login" href="especialistas-login.html"> ESPECIALISTAS </a></li>
+            <li class="nav__option--login"><a class="option__link--login" href="pedir-cita-login.html"> PEDIR CITA </a></li>
+            <li class="nav__option--login"><a class="option__link--login" id="active" href="faq-login.html"> DUDAS </a></li>
+        </ul>
+
+         <!-- IMAGEN LOGO -->
+         <div class="nav__container-img--login">
+            <a href="index-login.html" class="nav__link--login">
+                <img class="nav__img--login" src="assets/img/Logo.svg" alt="Logo  de la empresa">
+            </a>
+        </div>
+
     </nav>
+
+    <div id="nav__menu" class="nav__menu">
+        <i class="nav__menu-icon fa-solid fa-bars"></i>
+    </div>
 
     <!-- MAIN DE LA WEB -->
     <main class="home__main">

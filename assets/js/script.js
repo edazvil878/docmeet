@@ -28,5 +28,14 @@ window.onscroll = function(){
 }
 
 
+//menu móvil
+const toggleMenuElement = document.getElementById('nav__menu');
+const mainMenuElement = document.getElementById('home__nav');
+
+toggleMenuElement.addEventListener('click', () =>{
+    mainMenuElement.classList.toggle('main-menu--show');
+});
+
+
 
 
