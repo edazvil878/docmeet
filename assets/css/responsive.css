@@ -70,6 +70,10 @@
         padding: 8px 30px;
     }
 
+    .cards__title {
+        margin: 0;
+    }
+
     /* Quitar las imagenes y poner el texto al 100% */
     .right__container-img {
         display: none;
@@ -85,6 +89,14 @@
 
     .section-3__right {
         flex-basis: 100%;
+    }
+
+    .main__section-1 {
+        padding-bottom: 0;
+    }
+
+    .cards__btns {
+        padding-bottom: 20px;
     }
 }
 
@@ -152,6 +164,11 @@
     .shop__input {
         width: 100%;
     }
+
+    /* Footer */
+    .option__link--footer {
+        width: 10%;
+    }
 }
 
 @media (max-width: 1070px) {
@@ -211,6 +228,11 @@
         flex-basis: 100%;
     }
 
+    .container-legal__list {
+        display: inline-flex;
+        gap: 20px;
+    }
+
     .footer__container-description {
         flex-basis: 100%;
         margin: 10px;
@@ -223,6 +245,7 @@
 }
 
 @media (max-width: 870px) {
+
     /* Menu movil */
     .home__nav,
     .home__nav--login {
@@ -252,6 +275,10 @@
         line-height: 40px;
         padding-top: 20px;
     }
+}
 
-
+@media (max-width: 775px) {
+    .cards__card {
+        flex-basis: 100%;
+    }
 }

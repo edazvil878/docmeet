@@ -129,7 +129,7 @@ body {
     scale: 1.3;
 }
 
-.nav__menu{
+.nav__menu {
     display: none;
 }
 
@@ -507,7 +507,6 @@ body {
 /* .container-legal__list{} */
 
 .container-legal__option {
-    margin: 0 200px;
     font-size: 2.2rem;
     font-weight: bold;
     color: var(--color-oscuro);
