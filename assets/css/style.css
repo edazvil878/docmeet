@@ -404,6 +404,7 @@ body {
     margin-right: 25px;
     margin-top: 45px;
     margin-bottom: 20px;
+    
 
     background-color: var(--color--background-card);
 }
@@ -442,7 +443,7 @@ body {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .opinion__name {
