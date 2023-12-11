@@ -284,3 +284,9 @@
         flex-basis: 100%;
     }
 }
+
+@media (max-width: 700px) {
+    .personal__container {
+        flex-direction: column;
+    }
+}
