@@ -404,7 +404,7 @@ body {
     margin-right: 25px;
     margin-top: 45px;
     margin-bottom: 20px;
-    
+
 
     background-color: var(--color--background-card);
 }
@@ -443,7 +443,7 @@ body {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .opinion__name {
@@ -505,7 +505,10 @@ body {
     flex-basis: calc(33%);
 }
 
-/* .container-legal__list{} */
+.container-legal__list {
+    width: fit-content;
+    margin-left: 100px;
+}
 
 .container-legal__option {
     font-size: 2.2rem;
@@ -530,6 +533,7 @@ body {
     font-size: 1.8rem;
     color: var(--color-oscuro);
     text-align: justify;
+    margin-right: 100px;
 }
 
 .footer__container-rrss {
@@ -1179,4 +1183,8 @@ body {
 
 .container-right__btn-shop:hover .btn-shop__title {
     color: var(--color-secundario);
+}
+
+.faqs__faq {
+    cursor: pointer;
 }

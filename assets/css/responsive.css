@@ -226,6 +226,8 @@
 
     .footer__container-legal {
         flex-basis: 100%;
+        margin: 0;
+        margin-left: -100px;
     }
 
     .container-legal__list {
@@ -235,7 +237,7 @@
 
     .footer__container-description {
         flex-basis: 100%;
-        margin: 10px;
+        margin-left: 120px;
 
     }
 
