@@ -252,6 +252,7 @@
     .home__nav,
     .home__nav--login {
         display: none;
+        padding-top: 100px;
     }
 
     .main__menu--show {
@@ -290,3 +291,15 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 420px){
+    .nav__radio--login{
+        width: 40%;
+    }
+} 
+
+@media (max-width: 285px){
+    .nav__radio--login{
+        display: none;
+    }
+} 
