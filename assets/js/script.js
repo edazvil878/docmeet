@@ -15,13 +15,13 @@ function scrollUp() {
 
 buttonUp = document.getElementById("button-up");
 
-window.onscroll = function(){
+window.onscroll = function () {
 
     var scroll = document.documentElement.scrollTop;
 
-    if (scroll > 500){
+    if (scroll > 500) {
         buttonUp.style.transform = "scale(1)";
-    }else if(scroll < 500){
+    } else if (scroll < 500) {
         buttonUp.style.transform = "scale(0)";
     }
 
@@ -32,8 +32,8 @@ window.onscroll = function(){
 const toggleMenuElement = document.getElementById('nav__menu');
 const mainMenuElement = document.getElementById('home__nav');
 
-toggleMenuElement.addEventListener('click', () =>{
-    mainMenuElement.classList.toggle('main-menu--show');
+toggleMenuElement.addEventListener('click', () => {
+    mainMenuElement.classList.toggle('main__menu--show');
 });
 
 

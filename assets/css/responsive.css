@@ -254,7 +254,7 @@
         display: none;
     }
 
-    .main-menu--show {
+    .main__menu--show {
         display: block;
     }
 
