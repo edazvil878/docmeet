@@ -618,6 +618,8 @@ body {
         inset -5px -5px 5px rgba(255, 255, 255, .1);
     margin: 20px;
     padding: 20px;
+
+    cursor: pointer;
 }
 
 .faq__quest {
@@ -1168,7 +1170,6 @@ body {
     color: var(--color-claro);
 }
 
-
 .container-right__btn-shop:hover {
     transform: scale(1.1);
     background-color: var(--color--background-card);
@@ -1179,6 +1180,64 @@ body {
     color: var(--color-secundario);
 }
 
-.faqs__faq {
-    cursor: pointer;
+
+/* Página datos personales */
+.datos__dato {
+    padding: 15px;
+    background-color: var(--color--background-card);
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .1),
+        -5px -5px 5px rgba(255, 255, 255, .1);
+}
+
+.dato__title {
+    font-size: 3rem;
+    color: var(--color-principal);
+}
+
+.dato__text {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--color-secundario);
+}
+
+#a1 {
+    grid-area: a1;
+}
+
+#a2 {
+    grid-area: a2;
+}
+
+#a3 {
+    grid-area: a3;
+}
+
+#a4 {
+    grid-area: a4;
+}
+
+#a5 {
+    grid-area: a5;
+}
+
+#a6 {
+    grid-area: a6;
+}
+
+#a7 {
+    grid-area: a7;
+}
+
+.section1__datos {
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-areas:
+        "a1 a1 a1 a3"
+        "a2 a2 a6 a7"
+        "a5 a5 a5 a4"
 }
