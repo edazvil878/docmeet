@@ -76,20 +76,20 @@
     </div>
 
     <!-- MAIN DE LA WEB -->
-    <main class="home__main">
+    <main class="home__main home__main--flex">
 
-        <section>
-            <div class="main__container-cita">
+        <div class="main__container-login">
 
-                <div class="cita__container-sup">
-                    <header class="cita__header">
-                        <h1 class="cita__title">PEDIR CITA</h1>
-                    </header>
-                </div>
-    
-                <form class="cita__form" action="#" method="post">
-    
-                    <label class="cita__label" for="servicios">Servicios:</label>
+            <div class="login__container-sup">
+
+                <header class="login__header">
+                    <h1 class="login__title">PEDIR CITA</h1>
+                </header>
+            </div>
+
+            <form class="login__form" action="#" method="post">
+
+                <label class="cita__label" for="servicios">Servicios:</label>
                     <select class="cita__input" name="servicios" id="servicios">
                         <option class="cita__option" value="Logopeda">Logopeda</option>
                         <option class="cita__option" value="Psicología">Psicología</option>
@@ -109,24 +109,16 @@
                     <input class="cita__input" type="date" id="fecha" name="fecha">
     
                     <label class="cita__label" for="hora">Hora:</label>
-                    <select class="cita__input" name="hora" id="hora">
-                        <option class="cita__option" value="10:00">10:00</option>
-                        <option class="cita__option" value="11:00">11:00</option>
-                        <option class="cita__option" value="12:00">12:00</option>
-                        <option class="cita__option" value="137:00">17:00</option>
-                        <option class="cita__option" value="18:00">18:00</option>
-                        <option class="cita__option" value="19:00">19:00</option>
-                        <option class="cita__option" value="20:00">20:00</option>
-                    </select>
+                    <input type="time" class="cita__input" name="hora" id="hora">
+                
+                    </input>
     
                     <a class="cita__button" href="#">
                         <span class="button-cita__title">PEDIR CITA</span>
                     </a>
-                </form>
-    
-            </div>
-    
-        </section>
+            </form>
+
+        </div>
        
     </main>
 
