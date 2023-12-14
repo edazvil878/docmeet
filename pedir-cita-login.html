@@ -76,55 +76,58 @@
     </div>
 
     <!-- MAIN DE LA WEB -->
-    <main class="home__main home__main--flex">
+    <main class="home__main">
 
-        <div class="main__container-cita">
+        <section>
+            <div class="main__container-cita">
 
-            <div class="cita__container-sup">
-                <header class="cita__header">
-                    <h1 class="cita__title">PEDIR CITA</h1>
-                </header>
+                <div class="cita__container-sup">
+                    <header class="cita__header">
+                        <h1 class="cita__title">PEDIR CITA</h1>
+                    </header>
+                </div>
+    
+                <form class="cita__form" action="#" method="post">
+    
+                    <label class="cita__label" for="servicios">Servicios:</label>
+                    <select class="cita__input" name="servicios" id="servicios">
+                        <option class="cita__option" value="Logopeda">Logopeda</option>
+                        <option class="cita__option" value="Psicología">Psicología</option>
+                        <option class="cita__option" value="Neuropsicología">Neuropsicología</option>
+                        <option class="cita__option" value="Psiquiatra">Psiquiatra</option>
+                    </select>
+    
+                    <label class="cita__label" for="especialistas">Especialistas:</label>
+                    <select class="cita__input" name="especialistas" id="especialistas">
+                        <option class="cita__option" value="juan">Juan</option>
+                        <option class="cita__option" value="maria">Maria</option>
+                        <option class="cita__option" value="carlos">Carlos</option>
+                        <option class="cita__option" value="laura">Laura</option>
+                    </select>
+    
+                    <label class="cita__label" for="fecha">Fecha:</label>
+                    <input class="cita__input" type="date" id="fecha" name="fecha">
+    
+                    <label class="cita__label" for="hora">Hora:</label>
+                    <select class="cita__input" name="hora" id="hora">
+                        <option class="cita__option" value="10:00">10:00</option>
+                        <option class="cita__option" value="11:00">11:00</option>
+                        <option class="cita__option" value="12:00">12:00</option>
+                        <option class="cita__option" value="137:00">17:00</option>
+                        <option class="cita__option" value="18:00">18:00</option>
+                        <option class="cita__option" value="19:00">19:00</option>
+                        <option class="cita__option" value="20:00">20:00</option>
+                    </select>
+    
+                    <a class="cita__button" href="#">
+                        <span class="button-cita__title">PEDIR CITA</span>
+                    </a>
+                </form>
+    
             </div>
-
-            <form class="cita__form" action="#" method="post">
-
-                <label class="cita__label" for="servicios">Servicios:</label>
-                <select class="cita__input" name="servicios" id="servicios">
-                    <option class="cita__option" value="Logopeda">Logopeda</option>
-                    <option class="cita__option" value="Psicología">Psicología</option>
-                    <option class="cita__option" value="Neuropsicología">Neuropsicología</option>
-                    <option class="cita__option" value="Psiquiatra">Psiquiatra</option>
-                </select>
-
-                <label class="cita__label" for="especialistas">Especialistas:</label>
-                <select class="cita__input" name="especialistas" id="especialistas">
-                    <option class="cita__option" value="juan">Juan</option>
-                    <option class="cita__option" value="maria">Maria</option>
-                    <option class="cita__option" value="carlos">Carlos</option>
-                    <option class="cita__option" value="laura">Laura</option>
-                </select>
-
-                <label class="cita__label" for="fecha">Fecha:</label>
-                <input class="cita__input" type="date" id="fecha" name="fecha">
-
-                <label class="cita__label" for="hora">Hora:</label>
-                <select class="cita__input" name="hora" id="hora">
-                    <option class="cita__option" value="10:00">10:00</option>
-                    <option class="cita__option" value="11:00">11:00</option>
-                    <option class="cita__option" value="12:00">12:00</option>
-                    <option class="cita__option" value="137:00">17:00</option>
-                    <option class="cita__option" value="18:00">18:00</option>
-                    <option class="cita__option" value="19:00">19:00</option>
-                    <option class="cita__option" value="20:00">20:00</option>
-                </select>
-
-                <a class="cita__button" href="#">
-                    <span class="button-cita__title">PEDIR CITA</span>
-                </a>
-            </form>
-
-        </div>
-
+    
+        </section>
+       
     </main>
 
     <!-- PIÉ DE PÁGINA -->
@@ -133,22 +136,19 @@
         <!-- TERMINOS LEGALES -->
         <div class="footer__container-legal">
             <ul class="container-legal__list">
-                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 1</a></li>
-                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 2</a></li>
-                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 3</a></li>
-                <li class="container-legal__option"><a class="option__link" href="#">Terminos legales 4</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 1</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 2</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 3</a></li>
+                <li class="container-legal__option"><a class="option__link-footer" href="#">Terminos legales 4</a></li>
             </ul>
         </div>
 
         <!-- INFORMACIÓN -->
         <div class="footer__container-description">
             <p class="footer__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto libero, aliquid porro quae accusantium
-                repudiandae placeat facilis a harum aperiam necessitatibus, sint, mollitia magni? Id nisi atque odio
-                necessitatibus fuga?
-                Quae quis dolorem sit modi voluptas molestiae iste, nulla quam blanditiis aliquid rem et, tenetur iure
-                vero maxime reprehenderit repudiandae itaque odit impedit. Voluptatibus ratione laudantium quo, dolores
-                ut itaque!
+                ¡DocMeet te brinda acceso rápido y seguro a profesionales de la salud desde la comodidad
+                de tu hogar! Navega por nuestros especialistas, programa tu cita y paga de manera segura. Atención
+                médica de calidad a solo un clic de distancia.
             </p>
         </div>
 
