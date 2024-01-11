@@ -1,0 +1,120 @@
+.main__container-login {
+
+    margin-bottom: 100px;
+
+    width: 500px;
+    padding: 10px 50px;
+
+    background-color: $colorBgCard;
+
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+}
+
+.login__container-sup {
+    padding: 0;
+}
+
+.login__radio {
+    margin-top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.login__container-img {
+    width: 100%;
+}
+
+.login__img {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 90px;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+
+
+    background-color: $colorBgCard;
+}
+
+.login__header {
+    flex-basis: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login__title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: $colorPrincipal;
+}
+
+.login__label,
+.shop__label {
+    font-size: 2rem;
+    color: $colorOscuro;
+
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+
+    text-transform: uppercase;
+}
+
+.login__input,
+.shop__input {
+    width: 100%;
+    height: 30px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    font-size: 1.5rem;
+
+    border: 1px solid $colorOscuro;
+}
+
+.shop__input--last {
+    margin-bottom: 85px;
+}
+
+.login__button {
+    padding: 8px 0;
+    border: 3px solid $colorBgCard;
+
+    background-color: $colorSecundario;
+    transition: all 300ms ease-in-out;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-login__title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: $colorClaro;
+}
+
+.login__button:hover {
+    transform: scale(1.1);
+    background-color: $colorBgCard;
+    border: 3px solid $colorSecundario;
+}
+
+.login__button:hover .button-login__title {
+    color: $colorSecundario;
+}
+
+.login__register {
+    padding-bottom: 7px;
+    width: 110px;
+}
+
+.register__text {
+    color: $colorOscuro;
+    font-size: 2rem;
+}
+
+.register__text:hover {
+    color: $colorSecundario;
+}

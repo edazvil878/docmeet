@@ -1,0 +1,30 @@
+@import "variables";
+@import "navbar";
+@import "footer";
+@import "botonUp";
+@import "especialista";
+@import "pagArea";
+@import "pagCarrito";
+@import "pagDatos";
+@import "pagDuda";
+@import "pagEspecialista";
+@import "pagInicio";
+@import "pagMisCitas";
+@import "pagPedirCita";
+@import "pagLogin";
+@import "reset";
+@import "responsive";
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $fuentePrincipal;
+    background-color: $colorBg;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}

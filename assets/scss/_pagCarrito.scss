@@ -1,0 +1,98 @@
+.main__shop {
+    width: 100%;
+}
+
+.shop__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.shop__container-left {
+    flex-basis: calc(70% - 50px);
+    background-color: $colorBgCard;
+    padding: 25px;
+    height: fit-content;
+
+    align-self: center;
+
+    box-shadow: 0px 0px 0px 3px rgba(125, 125, 125, .1);
+}
+
+.container-left__container-description-shop {
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.container-left__title-shop {
+    font-size: 2.5rem;
+    text-align: center;
+    color: $colorPrincipal;
+    padding-bottom: 10px;
+
+}
+
+.container-left__description-shop {
+    font-size: 2rem;
+    color: $colorOscuro;
+    text-align: justify;
+}
+
+.shop__container-right {
+    position: relative;
+
+    flex-basis: calc(30% - 50px);
+    background-color: $colorBgCard;
+    padding: 25px;
+
+    height: fit-content;
+
+    box-shadow: 0px 0px 0px 3px rgba(125, 125, 125, .1);
+}
+
+.container-right__title-shop {
+    font-size: 2.5rem;
+    text-align: center;
+    color: $colorPrincipal;
+    padding-bottom: 10px;
+}
+
+.container-right__description-shop {
+    font-size: 2rem;
+    color: $colorOscuro;
+    text-align: justify;
+}
+
+.container-right__btn-shop {
+    position: absolute;
+
+    width: fit-content;
+
+    padding: 8px 10px;
+    border: 3px solid $colorBgCard;
+    background-color: $colorSecundario;
+    transition: all 300ms ease-in-out;
+
+    text-align: center;
+    bottom: 20px;
+    right: 50%;
+    transform: translate(50%);
+}
+
+.btn-shop__title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: $colorClaro;
+}
+
+.container-right__btn-shop:hover {
+    background-color: $colorBgCard;
+    border: 3px solid $colorSecundario;
+}
+
+.container-right__btn-shop:hover .btn-shop__title {
+    color: $colorSecundario;
+}

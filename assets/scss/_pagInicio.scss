@@ -1,0 +1,255 @@
+/* SECCIÓN 1 */
+.cards__header,
+.opinions__header,
+.faqs__header,
+.personal__header,
+.mis-citas__header,
+.shop__header {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cards__title,
+.opinions__title,
+.faqs__title,
+.personal__title,
+.mis-citas__title,
+.shop__title {
+    font-size: 5rem;
+    font-weight: bold;
+    color: $colorPrincipal;
+    margin-top: 40px;
+}
+
+.home__main {
+    width: 80%;
+    margin: 0 auto;
+
+    flex: 1;
+}
+
+.home__main--flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__section-1 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.section-1__left {
+    flex-basis: calc(50% - 50px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 6rem;
+}
+
+.left__logo {
+    width: 100%;
+}
+
+.left__subtitle {
+    margin-top: -30px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+    text-align: center;
+    color: $colorOscuro;
+}
+
+.left__title {
+    margin-bottom: 3px;
+    font-size: 4rem;
+    color: $colorPrincipal;
+}
+
+.left__description {
+    font-size: 2rem;
+    color: $colorOscuro;
+}
+
+.section-1__right {
+    flex-basis: calc(50% - 50px);
+}
+
+.right__container-img {
+    width: 100%;
+}
+
+.right__img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* SECCIÓN 2 */
+.section-2__cards {
+    width: 100%;
+}
+
+/* SECCIÓN 3 */
+.main__section-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 70px;
+    gap: 50px;
+}
+
+.section-3__left {
+    flex-basis: calc(50% - 50px);
+}
+
+.left__img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.section-3__right {
+    flex-basis: calc(50% - 50px);
+    text-align: justify;
+}
+
+.right__description {
+    font-size: 2.3rem;
+    color: $colorOscuro;
+}
+
+/* SECCIÓN 4 */
+.main__section-4 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.opinions__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.opinions__opinion {
+    position: relative;
+
+    flex-basis: calc(50% - 50px);
+    box-shadow: 0px 0px 0px 3px rgba(125, 125, 125, .1);
+
+    padding-top: 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    margin-right: 25px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+
+    background-color: $colorBgCard;
+}
+
+.opinion__container-inf {
+    position: absolute;
+    bottom: 20px;
+}
+
+.opinion__container-img {
+    width: 100%;
+}
+
+.opinion__img {
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 90px;
+    margin: 0 auto;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px 1px rgba(0, 0, 0, .25);
+}
+
+.opinion__container-description {
+    margin-bottom: 100px;
+
+}
+
+.opinion__description {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: $colorOscuro;
+    text-align: justify;
+}
+
+.opinion__star {
+    font-size: 1.7rem;
+    color: $colorPrincipal;
+}
+
+.opinion__author {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opinion__name {
+    margin-bottom: 5px;
+    font-size: 1.7rem;
+}
+
+.opinion__icon {
+    font-size: 4rem;
+    color: $colorPrincipal;
+}
+
+/* INDEX LOGIN */
+.nav__radio--login {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $colorBgCard;
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px $colorSecundario;
+    padding: 2.5px;
+    width: 250px;
+    font-size: 14px;
+}
+
+.radio__label--login {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.radio__input--login {
+    display: none;
+}
+
+.radio__text--login {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 5px 0;
+    color: $colorOscuro;
+    letter-spacing: 0.1rem;
+    transition: all .15s ease-in-out;
+}
+
+.radio__input--login:checked+.radio__text--login {
+    background-color: $colorSecundarioClaro;
+    color: $colorSecundario;
+}
