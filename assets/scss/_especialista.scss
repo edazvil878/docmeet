@@ -106,9 +106,13 @@
 }
 
 .card__container-img--3 {
-    @include fotoEspecialista(url("/assets/img/medico_hombre2.webp"))
+    @include fotoEspecialista(url("/assets/img/medico_hombre2.jpg"))
 }
 
 .card__container-img--4 {
-    @include fotoEspecialista(url("/assets/img/medico_hombre.jpg"))
+    @include fotoEspecialista(url("/assets/img/medico_hombre3.webp"))
+}
+
+.card__container-img--5 {
+    @include fotoEspecialista(url("/assets/img/medico_hombre4.webp"))
 }
