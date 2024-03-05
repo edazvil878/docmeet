@@ -77,6 +77,8 @@
     <!-- MAIN DE LA WEB -->
     <main class="home__main">
 
+
+
         <!-- PRIMERA SECCIÓN -->
         <section class="main__section-1">
 
@@ -84,8 +86,17 @@
             <div class="section-1__left">
                 <img src="assets/img/LogoLetras.svg" class="left__logo">
 
-                <h2 class="left__subtitle"> "DocMeet: Tu Salud online, a un Clic de Distancia." </h2>
-                <h1 class="left__title">Tu centro de telemedicina 24 horas</h1>
+                <h1 class="left__subtitle"> "DocMeet: Tu Salud online, a un Clic de Distancia." </h1>
+                <div class="reproductor">
+                    <audio id="player">
+                        <source src="assets/img/descripcion.mp3" type="audio/mpeg" />
+                    </audio>
+                    <i class="fa-solid fa-play" onClick="document.getElementById('player').play()"></i>
+                    <i class="fa-solid fa-stop" onClick="document.getElementById('player').pause()"></i>
+                    <i class="fa-solid fa-volume-low" onClick="document.getElementById('player').volume-=0.1"></i>
+                    <i class="fa-solid fa-volume-high" onClick="document.getElementById('player').volume+=0.1"></i>
+                </div>
+
             </div>
 
             <!-- PRIMERA SECCIÓN LADO DER -->
@@ -118,10 +129,14 @@
 
                         <div class="card__container-text">
                             <ul class="card__text">
-                                La Dra. Laura Martínez es una ginecóloga apasionada y dedicada con más de 15 años de
-                                experiencia. Su enfoque compasivo y su profundo conocimiento la convierten en una
-                                elección excepcional para mujeres de todas las edades. Está comprometida a brindar
-                                atención integral y a empoderar a sus pacientes para que tomen decisiones informadas
+                                La Dra. Laura Martínez es una ginecóloga apasionada y dedicada con más de 15
+                                años de
+                                experiencia. Su enfoque compasivo y su profundo conocimiento la convierten en
+                                una
+                                elección excepcional para mujeres de todas las edades. Está comprometida a
+                                brindar
+                                atención integral y a empoderar a sus pacientes para que tomen decisiones
+                                informadas
                                 sobre su salud.
                             </ul>
                         </div>
@@ -143,10 +158,14 @@
 
                         <div class="card__container-text">
                             <span class="card__text">
-                                Con una sólida formación en cardiología, el Dr. Alejandro González es reconocido por su
-                                experiencia en el diagnóstico y tratamiento de enfermedades cardíacas. Su enfoque
-                                centrado en el paciente y su habilidad para explicar conceptos médicos complejos de
-                                manera accesible lo convierten en un aliado invaluable en la búsqueda de la salud
+                                Con una sólida formación en cardiología, el Dr. Alejandro González es reconocido
+                                por su
+                                experiencia en el diagnóstico y tratamiento de enfermedades cardíacas. Su
+                                enfoque
+                                centrado en el paciente y su habilidad para explicar conceptos médicos complejos
+                                de
+                                manera accesible lo convierten en un aliado invaluable en la búsqueda de la
+                                salud
                                 cardiovascular.
                             </span>
                         </div>
@@ -168,9 +187,12 @@
 
                         <div class="card__container-text">
                             <span class="card__text">
-                                La enfermera Carmen Soto es una profesional dedicada al cuidado pediátrico. Su amor por
-                                los niños se combina con una habilidad excepcional para brindar atención compasiva y
-                                comprensiva. Su enfoque proactivo asegura un entorno de atención médica seguro y cómodo
+                                La enfermera Carmen Soto es una profesional dedicada al cuidado pediátrico. Su
+                                amor por
+                                los niños se combina con una habilidad excepcional para brindar atención
+                                compasiva y
+                                comprensiva. Su enfoque proactivo asegura un entorno de atención médica seguro y
+                                cómodo
                                 para los más pequeños y sus familias.
                             </span>
                         </div>
@@ -192,9 +214,12 @@
 
                         <div class="card__container-text">
                             <span class="card__text">
-                                El Dr. Roberto Vargas es un psicólogo clínico comprometido con la salud mental y el
-                                bienestar emocional. Su enfoque personalizado y su capacidad para establecer conexiones
-                                significativas con sus pacientes han demostrado ser fundamentales en el proceso de
+                                El Dr. Roberto Vargas es un psicólogo clínico comprometido con la salud mental y
+                                el
+                                bienestar emocional. Su enfoque personalizado y su capacidad para establecer
+                                conexiones
+                                significativas con sus pacientes han demostrado ser fundamentales en el proceso
+                                de
                                 superar desafíos emocionales y mentales.
                             </span>
                         </div>
@@ -228,9 +253,12 @@
             <div class="section-3__right">
                 <p class="right__description">
                     ¡Bienvenido a nuestra plataforma de consultas médicas online! Con nosotros, encontrar al
-                    especialista adecuado es rápido y sencillo. Explora perfiles detallados, elige tu médico ideal y
-                    solicita una cita en un horario conveniente. Paga solo cuando tu cita sea confirmada. Las consultas
-                    se realizan de manera fácil y segura a través de videollamadas. ¡Accede a la atención médica que
+                    especialista adecuado es rápido y sencillo. Explora perfiles detallados, elige tu médico
+                    ideal y
+                    solicita una cita en un horario conveniente. Paga solo cuando tu cita sea confirmada. Las
+                    consultas
+                    se realizan de manera fácil y segura a través de videollamadas. ¡Accede a la atención médica
+                    que
                     necesitas desde la comodidad de tu hogar!
                 </p>
             </div>
@@ -257,12 +285,16 @@
 
                         <div class="opinion__container-description">
                             <p class="opinion__description">
-                                Estoy muy impresionado con este servicio. Después de buscar durante mucho tiempo una
+                                Estoy muy impresionado con este servicio. Después de buscar durante mucho tiempo
+                                una
                                 forma eficiente de obtener consultas médicas online, finalmente encontré esta
                                 plataforma. Encontré a un especialista altamente calificado, pude revisar su
-                                disponibilidad y reservar una cita sin problemas. Lo mejor de todo, el pago se realizó
-                                solo cuando la cita fue confirmada. La videollamada fue fácil de usar y el médico
-                                respondió todas mis preguntas. Esta plataforma ha simplificado enormemente el proceso y
+                                disponibilidad y reservar una cita sin problemas. Lo mejor de todo, el pago se
+                                realizó
+                                solo cuando la cita fue confirmada. La videollamada fue fácil de usar y el
+                                médico
+                                respondió todas mis preguntas. Esta plataforma ha simplificado enormemente el
+                                proceso y
                                 ha mejorado mi acceso a la atención médica. ¡Muy agradecido!
                             </p>
                         </div>
@@ -293,12 +325,16 @@
 
                         <div class="opinion__container-description">
                             <p class="opinion__description">
-                                Estoy muy impresionado con este servicio. Después de buscar durante mucho tiempo una
+                                Estoy muy impresionado con este servicio. Después de buscar durante mucho tiempo
+                                una
                                 forma eficiente de obtener consultas médicas online, finalmente encontré esta
                                 plataforma. Encontré a un especialista altamente calificado, pude revisar su
-                                disponibilidad y reservar una cita sin problemas. Lo mejor de todo, el pago se realizó
-                                solo cuando la cita fue confirmada. La videollamada fue fácil de usar y el médico
-                                respondió todas mis preguntas. Esta plataforma ha simplificado enormemente el proceso y
+                                disponibilidad y reservar una cita sin problemas. Lo mejor de todo, el pago se
+                                realizó
+                                solo cuando la cita fue confirmada. La videollamada fue fácil de usar y el
+                                médico
+                                respondió todas mis preguntas. Esta plataforma ha simplificado enormemente el
+                                proceso y
                                 ha mejorado mi acceso a la atención médica. ¡Muy agradecido!
                             </p>
                         </div>

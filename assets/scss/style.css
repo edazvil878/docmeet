@@ -1478,6 +1478,29 @@ label {
     display: none;
   }
 }
+.reproductor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.reproductor i {
+  font-size: 4rem;
+  color: #49B1F2;
+  transition: color 200ms ease-in-out;
+}
+
+.reproductor i:hover {
+  color: #83A603;
+}
+
+.reproductor-video {
+  margin: 0 auto;
+  width: 390px;
+}
+
 html {
   font-size: 10px;
 }
